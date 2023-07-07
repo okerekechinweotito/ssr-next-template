@@ -7,6 +7,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Provider as JotaiProvider } from 'jotai';
 
 import theme from '@/styles/theme';
+import Layout from '@/components/layout/layout';
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const queryClient = new QueryClient();

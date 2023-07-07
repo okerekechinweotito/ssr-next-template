@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>Home Page</h1>;
+type Props = {};
+
+export default function Home({}: Props) {
+  return <div>Home</div>;
 }

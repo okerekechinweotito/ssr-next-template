@@ -1,11 +1,11 @@
 'use client';
 
-import Layout from '@/components/layout/layout';
 import { Center, Spinner } from '@chakra-ui/react';
+import PublicLayout from './(public)/layout';
 
 export default function loading() {
   return (
-    <Layout>
+    <PublicLayout>
       <Center background='brand.primary' height={'70vh'}>
         <Spinner
           size='xl'
@@ -18,6 +18,6 @@ export default function loading() {
           marginTop='-24'
         />
       </Center>
-    </Layout>
+    </PublicLayout>
   );
 }
